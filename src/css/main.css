@@ -743,13 +743,14 @@ Footer
 
 @media only screen and (max-width: 700px) {
   .siteName {
-    width: 35rem;
+    
     height: 1rem;
     display: block;
     position: absolute;
     top: 15rem;
     bottom: 0;
-    left: 4rem;
-    font-size: 1.6rem;
+    left: 10px;
+    font-size: 1.9rem;
+    padding-left: 20px;
 }
 }

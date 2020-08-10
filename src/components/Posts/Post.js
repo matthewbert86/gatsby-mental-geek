@@ -11,7 +11,7 @@ const Post = ({ frontmatter, excerpt }) => {
     <Wrapper>
       <Image fluid={image.childImageSharp.fluid} className="img" />
       <div className="info">
-        <span className="category">{category}</span>
+        
         <h3>{title}</h3>
         <div className="underline"></div>
         <p>{excerpt}</p>
@@ -19,11 +19,11 @@ const Post = ({ frontmatter, excerpt }) => {
           Continue Reading <IoMdArrowRoundForward />
         </Link>
         <footer>
+          <span className="category">{category}</span>
           <span className="date">
             <FaRegClock className="icon"></FaRegClock>
             {date}
           </span>
-          <span>{readTime} min read</span>
         </footer>
       </div>
     </Wrapper>
